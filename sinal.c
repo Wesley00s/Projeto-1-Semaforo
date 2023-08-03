@@ -56,7 +56,7 @@ int main()
         if(SW1 == 1)
         {
             printf("FASE 3\n");
-            printf("O pedestre apertou o botão?\n1 - Não\n2 - Sim\n");
+            printf("O pedestre apertou o botão?\n1 - Não\n2 - Sim\n"); // VERIFICANDO SE O PEDESTRE APERTOU O BOTÃO, CASO NÃO, VERIFICA NOVAMENTE NA PRÓXIMA INTERAÇÃO
             scanf("%d", &SW1);
             system("clear");
         }
