@@ -19,7 +19,7 @@ int main()
     {
         int SW1 = 1; // CRIANDO BOTÃO DO PEDESTRE
 
-        if(1){ // LOOP SEMPRE VERDADEIRO PARA CONTROLAR A LIMPEZA DO TERMINAL
+        if(1){ // CONDIÇÃO SEMPRE VERDADEIRA PARA CONTROLAR A LIMPEZA DO TERMINAL
             printf("\tFASE 1\n\n");
             printf("O pedestre apertou o botão?\n1 - Não\n2 - Sim\n"); // DANDO A OPÇÃO DE APERTAR O BOTÃO PARA O PEDESTRE, PARA FASES (3A E 3B)
             scanf("%d", &SW1);
