@@ -34,7 +34,7 @@ int main()
 
         printf("%sVERDE%s\t\t%sVERMELHO%s\t%sVERMELHO%s\n\n\n", VERDE, RESET, VERMELHO, RESET, VERMELHO, RESET);
 
-        sleep(5); //PAUSA DE 5 SEGUNDOS NO SISTEMA 
+        sleep(15); //PAUSA DE 5 SEGUNDOS NO SISTEMA 
         system("clear");
 
         if (SW1 == 1) // VERIFICANDO SE O PEDESTRE APERTOU O BOTÃO, CASO NÃO, VERIFICA NOVAMENTE NA PRÓXIMA INTERAÇÃO
