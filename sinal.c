@@ -85,7 +85,7 @@ int main()
             sleep(5);
             system("clear");
 
-            for (float i = 0; i < 2.5; i++){ // ANIMAÇÃO DO SINAL VERMELHO PISCANDO
+            for (float i = 0; i <= 2.5; i++){ // ANIMAÇÃO DO SINAL VERMELHO PISCANDO
                 printf("\tFASE 3B - (5s)\n\n"); // INICIO DA FASE 3B
                 printf("Rua Alfa\tRua Bravo\tPedestre\n");
 
@@ -168,7 +168,7 @@ int main()
             sleep(5);
             system("clear");
 
-            for (float i = 0; i < 2.5; i++) // ANIMAÇÃO DO SINAL VERMELHO PISCANDO
+            for (float i = 0; i <= 2.5; i++) // ANIMAÇÃO DO SINAL VERMELHO PISCANDO
             {
                 printf("\tFASE 6B - (5s)\n\n"); // INICIO DA FASE 6B
                 printf("Rua Alfa\tRua Bravo\tPedestre\n");
