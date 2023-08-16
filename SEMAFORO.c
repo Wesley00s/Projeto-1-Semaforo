@@ -3,9 +3,9 @@
 #include <locale.h>
 #include <unistd.h> // BIBLIOTECA PARA MANIPULAR O TEMPO
 
-// DEFININDO CORES
+// DEFININDO CORES (COM OFF NO FINAL SIMULA O SEMAFORO DESLIGADO)
 #define VERMELHO "\x1B[7;31m"
-#define VERMELHO_OFF "\x1B[31m"
+#define VERMELHO_OFF "\x1B[31m" 
 #define AMARELO "\x1B[7;33m"
 #define AMARELO_OFF "\x1B[33m"
 #define VERDE "\x1B[7;32m"
