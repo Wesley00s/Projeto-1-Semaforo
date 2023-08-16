@@ -12,6 +12,7 @@
 #define VERDE_OFF "\x1B[32m"
 #define RESET "\x1B[0m"
 
+// FUNÇÕES DE CADA FASE PARA PODER MANIPULAR AS ANIMAÇÕES DA BARRA DE TIMER (TIPO VOID JÁ QUE NÃO POSSUI RETORNO)
 void fase1()
 {
     printf("FASE 1 - (15s)\n\n"); // INICIO DA FASE 1
@@ -294,7 +295,7 @@ void fase6A()
 
 void fase6B1()
 {
-    printf("FASE 6B - (5s)\n\n");
+    printf("FASE 6B - (5s)\n\n"); // INICIO DA FASE 6B
     printf("Rua Alfa\tRua Bravo\tPedestre\n");
     printf("%sVERMELHO%s\t%sVERMELHO%s\t%sVERMELHO%s\n\n\n", VERMELHO, RESET, VERMELHO, RESET, VERMELHO, RESET);
 
